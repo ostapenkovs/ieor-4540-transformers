@@ -1,0 +1,9 @@
+.vscode
+
+__pycache__
+.ipynb_checkpoints
+
+temp
+temp.*
+
+data
