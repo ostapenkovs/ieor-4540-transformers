@@ -6,8 +6,6 @@ __pycache__
 temp
 temp.*
 
-data/checkpoints
-data/logs
 data/cifar10
 data/mnist
 data/papers
