@@ -1,0 +1,36 @@
+{
+    "mnist": {
+        "patch_size" : 4,
+        "dim" : 256,
+        "dim_head" : 64,
+        "mlp_dim" : 512,
+        "heads" : 4,
+        "depth" : 4,
+        "pool" : "cls",
+        "dropout" : 0.15,
+        "emb_dropout" : 0.15,
+        "la_depth" : 1,
+        "la_exp" : true,
+        "lr" : 0.001,
+        "epochs" : 10,
+        "gamma" : 10,
+        "batch_size" : 256
+    },
+    "cifar10": {
+        "patch_size" : 4,
+        "dim" : 256,
+        "dim_head" : 64,
+        "mlp_dim" : 512,
+        "heads" : 8,
+        "depth" : 4,
+        "pool" : "cls",
+        "dropout" : 0.15,
+        "emb_dropout" : 0.15,
+        "la_depth" : 1,
+        "la_exp" : true,
+        "lr" : 0.001,
+        "epochs" : 30,
+        "gamma" : 30,
+        "batch_size" : 256
+    }
+}
