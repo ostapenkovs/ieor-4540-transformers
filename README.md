@@ -1,5 +1,3 @@
-Final project repo for IEOR 4540 Transformers in Fall 2024.
-
 ## This is a repository for the term project in IEOR 4540 at Columbia University. 
 
 ### The Data Mining (Transformers) course covers vision transformer theory and applications.
