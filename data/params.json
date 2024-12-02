@@ -1,19 +1,19 @@
 {
     "mnist": {
-        "patch_size" : 4,
-        "dim" : 256,
+        "patch_size" : 7,
+        "dim" : 64,
         "dim_head" : 64,
-        "mlp_dim" : 512,
-        "heads" : 4,
-        "depth" : 4,
+        "mlp_dim" : 128,
+        "heads" : 2,
+        "depth" : 2,
         "pool" : "cls",
-        "dropout" : 0.15,
-        "emb_dropout" : 0.15,
+        "dropout" : 0.10,
+        "emb_dropout" : 0.10,
         "la_depth" : 1,
         "la_exp" : true,
         "lr" : 0.001,
-        "epochs" : 10,
-        "gamma" : 10,
+        "epochs" : 15,
+        "gamma" : 15,
         "batch_size" : 256
     },
     "cifar10": {
